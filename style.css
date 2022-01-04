@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 40px;
+}
+.crimson-color {
+  color: crimson;
+}
+.flexible-container {
+  display: flex;
+  margin: 15px;
+}
+.top-banner {
+  background-image: url(images/images/top-banner.png);
+  background-repeat: no-repeat;
+
+  margin: 20px;
+}
+section img {
+  border-radius: 50%;
+}
+.half-width {
+  width: 50%;
+  margin-right: 20px;
+}
+.half-width img {
+  width: 50%;
+}
+.button {
+  text-decoration: none;
+
+  background-image: linear-gradient(purple, rgb(255, 196, 0));
+  color: white;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.dream-big {
+  background-image: url(images/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area {
+  background-image: url(images/images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.experience-item {
+  box-shadow: 10px 10px 20px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+#f-s-d {
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  border-left: 7px solid;
+}
+#f-e-d {
+  border-image: linear-gradient(rgb(9, 255, 0), rgb(231, 26, 139));
+  border-image-slice: 1;
+  border-left: 7px solid;
+}
+footer p{
+    text-align: center;
+}
